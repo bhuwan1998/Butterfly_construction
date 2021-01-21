@@ -3,6 +3,8 @@ import {BrowserRouter as Router} from 'react-router-dom';
 import {Sidebar} from '../components/Sidebar'; 
 import {Navbar} from '../components/Navbar';
 import {HeroSection} from '../components/HeroSection';
+import {InfoSection} from '../components/InfoSection';
+import { homeObjOne } from '../components/InfoSection/Data';
 
 export const Home = () => {
 
@@ -17,6 +19,7 @@ export const Home = () => {
         <Sidebar isOpen={isOpen} toggle={toggle}/> 
         <Navbar toggle={toggle}/> 
         <HeroSection />
+        <InfoSection {...homeObjOne}/>
         </Router>
     )
 }

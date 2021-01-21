@@ -1,6 +1,6 @@
 export const homeObjOne = {
     id: 'about', 
-    lightBg: false, 
+    lightBg: true, 
     lightText: true, 
     lightTextDesc: true, 
     topLine: 'Premium Services', 
@@ -13,5 +13,5 @@ export const homeObjOne = {
     alt: 'Construction', 
     dark: true, 
     primary: true, 
-    darkText: false
+    darkText: true
 };

@@ -1,6 +1,6 @@
 import React, {useState} from 'react'; 
 import {BrowserRouter as Router} from 'react-router-dom'; 
-import {Sidebar} from '../components/Sidebar'; 
+// import {Sidebar} from '../components/Sidebar'; 
 import {Navbar} from '../components/Navbar';
 import {HeroSection} from '../components/HeroSection';
 import {InfoSection} from '../components/InfoSection';

@@ -22,17 +22,6 @@ export const InfoWrapper = styled.div`
     justify-content: center;
 `;
 
-export const InfoRow = styled.div`
-    display: grid; 
-    grid-auto-columns: minmax(auto, 1fr); 
-    align-items: center; 
-    grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)}; 
-
-    @media screen and (max-width: 768px) {
-        grid-template-areas: ${({imgStart}) => (imgStart ? `'col2' 'col1'` : `'col1 col1'  'col2 col2'`)}; 
-    }
-
-`;
 
 export const InfoRow2 = styled.div`
     display: grid; 

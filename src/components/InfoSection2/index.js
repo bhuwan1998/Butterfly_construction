@@ -1,15 +1,15 @@
 import React from 'react'; 
 import {Button} from '../ButtonElement';
-import constsvg from '../images/const.svg';
-import {InfoContainer, InfoWrapper, InfoRow, TextWrapper, TopLine, Heading, Subtitle,BtnWrap, Img, ImgWrap, Column1, Column2} from './InfoElements';
+import constsvg from '../images/city.svg';
+import {InfoContainer, InfoWrapper, InfoRow2, TextWrapper, TopLine, Heading, Subtitle,BtnWrap, Img, ImgWrap, Column1, Column2} from './InfoElements2';
 
 
-export const InfoSection = ({lightBg, id, imgStart, topLine,lightText, headLine, darkText, description, buttonLabel, alt, primary, dark, dark2, img}) => {
+export const InfoSection2 = ({lightBg, id, imgStart, topLine,lightText, headLine, darkText, description, buttonLabel, alt, primary, dark, dark2, img}) => {
     return (
         <>
         <InfoContainer lightBg={lightBg} id={id}>
             <InfoWrapper>
-                <InfoRow img={imgStart}>
+                <InfoRow2 img={imgStart}>
                     <Column1>
                       <TextWrapper> 
                           <TopLine> {topLine} </TopLine>
@@ -34,7 +34,7 @@ export const InfoSection = ({lightBg, id, imgStart, topLine,lightText, headLine,
                      <Img src={constsvg} alt={alt}/>
                      </ImgWrap>
                     </Column2>
-                </InfoRow> 
+                </InfoRow2> 
             </InfoWrapper>
         </InfoContainer>     
         </>

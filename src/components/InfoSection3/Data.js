@@ -2,12 +2,12 @@ import constsvg from '../images/const.svg';
 
 
 export const homeObjOne = {
-    id: 'about', 
+    id: 'services', 
     lightBg: false, 
     lightText: true, 
     lightTextDesc: true, 
-    topLine: 'About Us', 
-    headLine: 'About', 
+    topLine: 'Services', 
+    headLine: '', 
     description: "",  
     imgStart: false, 
     img: {constsvg},

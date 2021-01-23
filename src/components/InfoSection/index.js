@@ -14,7 +14,8 @@ export const InfoSection = ({lightBg, id, imgStart, topLine,lightText, headLine,
                           <TopLine> {topLine} </TopLine>
                           <Heading lightText={lightText}> {headLine}  </Heading>
                           <Subtitle darkText={darkText}> 
-                          <div> 
+                          <div className="row">
+                            <div className="col-md col-xs"> 
                                  <p>
                                 Butterfly  buildings  area  part  of  the  Butterfly  portfolio.  
                                 The  aim  is  to  build  houses  and buildings  for  our  clients like 
@@ -30,6 +31,9 @@ export const InfoSection = ({lightBg, id, imgStart, topLine,lightText, headLine,
                                     to deliver each stage of the project. 
                                 </p> 
                             </div>
+
+                          </div>
+                          
                            </Subtitle>
                           <BtnWrap> 
                               <Button to="home"
@@ -47,7 +51,12 @@ export const InfoSection = ({lightBg, id, imgStart, topLine,lightText, headLine,
                     </Column1>
                     <Column2>
                      <ImgWrap>
-                     <Img src={constsvg} alt={alt}/>
+                     <div className="row">
+                         <div className="col-xs col-md">
+                             <Img src={constsvg} alt={alt}/> 
+                         </div>   
+                     </div>
+                    
                      </ImgWrap>
                     </Column2>
                 </InfoRow> 
